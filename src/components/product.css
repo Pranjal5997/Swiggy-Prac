@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    width: 500px;
+}
+.product-container {
+    padding: 20px;
+    border: 1px solid;
+}
+.product-container h3{
+    text-align: left;
+}
+.product-container .left-sec{
+    text-align: initial;
+    margin-top: 40px;
+}
+.product-container .left-sec label{
+    font-weight: bold;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background: white;
+    border-radius: 10%;
+    height: 50px;
+    width: 100px;
+    color: #064906;
+    font-weight: bold;
+    font-size: 18px;
+}
