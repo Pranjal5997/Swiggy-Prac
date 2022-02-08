@@ -39,13 +39,13 @@ function Product() {
                         <div className='left-sec'>
                             <img />
                             <label className='item-name'>{item.name}</label>
+                            <br />
                             <CurrencyRupeeIcon style={{height: '13px', marginLeft: '-8px !important'}} /><span style={{margingLeft: '-5px !important'}} className='price'>{item.price}</span>
                         </div>
                         <div className='right-sec'>
                             <img className='produc-image' src={item.cloudinaryImageId} />
                             <button onClick={(e) => handleAdd(e,item)}>Add <span>+</span></button>
-                            <br />
-                            <span>customisable</span>
+                             <span>customisable</span>
                         </div>
                     </div>
                 </div>
